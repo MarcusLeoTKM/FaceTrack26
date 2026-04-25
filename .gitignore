@@ -1,0 +1,6 @@
+ToBeDeleted
+
+.DS_Store
+.thumbs.db
+.vscode/
+__pycache__/
