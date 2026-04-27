@@ -2,8 +2,12 @@
 
 This is a pan-tilt 2 DoF face-tracking camera.
 
-- [main.py](main.py)
-- [FaceRecog.py](FaceRecog.py): Detect faces and control the motors
-- [PIDTuning.py](PIDTuning.py): Calculate the required PWM frequencies to drive the motors based on the angle offset
-- [ReadMagneticField.py](ReadMagneticField.py): Read angle
-- [ControlLogic.py](ControlLogic.py): Previous approach 
+**Project Structure**
+* [main.py](main.py): Entry point
+* [FaceRecog.py](FaceRecog.py): Detect faces and control the motors
+* [ReadMagneticField.py](ReadMagneticField.py): Read angle
+* [ControlLogic.py](ControlLogic.py): Previous approach
+* [classes](classes/)
+    * [Motor.py](classes/Motor.py): Hardware abstraction for motor control (SPI/PWM)
+    * [MagneticEncoder.py](classes/MagneticEncoder.py): Class for communication with the magnetic encoder
+    * [PIDTuning.py](classes/PIDTuning.py): PID tuning logic
