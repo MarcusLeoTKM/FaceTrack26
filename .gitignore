@@ -4,3 +4,7 @@ ToBeDeleted
 .thumbs.db
 .vscode/
 __pycache__/
+
+ROS2_src/build/
+ROS2_src/install/
+ROS2_src/log/
