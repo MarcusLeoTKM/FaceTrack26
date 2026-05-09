@@ -1,0 +1,3 @@
+[console_scripts]
+motor_pan = motor_motion.motor_pan:main
+usb_camera = motor_motion.usb_camera:main

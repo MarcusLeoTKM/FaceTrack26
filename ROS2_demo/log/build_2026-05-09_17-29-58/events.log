@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.001041] (-) JobUnselected: {'identifier': 'motor_motion'}
+[0.002009] (messages) JobQueued: {'identifier': 'messages', 'dependencies': OrderedDict()}
+[0.002605] (messages) JobStarted: {'identifier': 'messages'}
+[0.079401] (messages) JobProgress: {'identifier': 'messages', 'progress': 'cmake'}
+[0.086222] (messages) Command: {'cmd': ['/usr/bin/cmake', '/home/feige/ROS2_src/messages', '-DCMAKE_INSTALL_PREFIX=/home/feige/ROS2_src/install/messages'], 'cwd': '/home/feige/ROS2_src/build/messages', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feige', 'SSH_CLIENT': '10.88.111.7 62021 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/feige', 'OLDPWD': '/home/feige', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/feige/ROS2_src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feige', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '28', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/feige/ROS2_src/build/messages', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.88.111.7 62021 10.88.111.16 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy'}), 'shell': False}
+[0.103655] (-) TimerEvent: {}
+[0.204926] (-) TimerEvent: {}
+[0.305802] (-) TimerEvent: {}
+[0.406614] (-) TimerEvent: {}
+[0.507351] (-) TimerEvent: {}
+[0.608341] (-) TimerEvent: {}
+[0.709262] (-) TimerEvent: {}
+[0.810115] (-) TimerEvent: {}
+[0.911107] (-) TimerEvent: {}
+[1.011980] (-) TimerEvent: {}
+[1.058144] (messages) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.112155] (-) TimerEvent: {}
+[1.188791] (messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.212368] (-) TimerEvent: {}
+[1.313120] (-) TimerEvent: {}
+[1.413829] (-) TimerEvent: {}
+[1.514583] (-) TimerEvent: {}
+[1.615334] (-) TimerEvent: {}
+[1.716110] (-) TimerEvent: {}
+[1.786133] (messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.816267] (-) TimerEvent: {}
+[1.823013] (messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.826800] (messages) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.829457] (messages) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.885208] (messages) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.916474] (-) TimerEvent: {}
+[2.017191] (-) TimerEvent: {}
+[2.117980] (-) TimerEvent: {}
+[2.218592] (-) TimerEvent: {}
+[2.319200] (-) TimerEvent: {}
+[2.419853] (-) TimerEvent: {}
+[2.520569] (-) TimerEvent: {}
+[2.612772] (messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.620763] (-) TimerEvent: {}
+[2.721455] (-) TimerEvent: {}
+[2.822133] (-) TimerEvent: {}
+[2.922753] (-) TimerEvent: {}
+[3.023396] (-) TimerEvent: {}
+[3.124224] (-) TimerEvent: {}
+[3.224949] (-) TimerEvent: {}
+[3.303900] (messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.325118] (-) TimerEvent: {}
+[3.361220] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.425282] (-) TimerEvent: {}
+[3.525916] (-) TimerEvent: {}
+[3.626586] (-) TimerEvent: {}
+[3.727238] (-) TimerEvent: {}
+[3.786727] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.827408] (-) TimerEvent: {}
+[3.928047] (-) TimerEvent: {}
+[4.028773] (-) TimerEvent: {}
+[4.129404] (-) TimerEvent: {}
+[4.178327] (messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[4.229681] (-) TimerEvent: {}
+[4.330415] (-) TimerEvent: {}
+[4.431150] (-) TimerEvent: {}
+[4.531845] (-) TimerEvent: {}
+[4.632404] (-) TimerEvent: {}
+[4.733030] (-) TimerEvent: {}
+[4.833818] (-) TimerEvent: {}
+[4.934727] (-) TimerEvent: {}
+[5.035808] (-) TimerEvent: {}
+[5.136575] (-) TimerEvent: {}
+[5.237178] (-) TimerEvent: {}
+[5.337790] (-) TimerEvent: {}
+[5.438559] (-) TimerEvent: {}
+[5.448149] (messages) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[5.450119] (messages) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name messages\n'}
+[5.450649] (messages) StderrLine: {'line': b'  --arguments-file\n'}
+[5.451098] (messages) StderrLine: {'line': b'  /home/feige/ROS2_src/build/messages/rosidl_adapter__arguments__messages.json\n'}
+[5.451513] (messages) StderrLine: {'line': b'  --output-dir /home/feige/ROS2_src/build/messages/rosidl_adapter/messages\n'}
+[5.451883] (messages) StderrLine: {'line': b'  --output-file\n'}
+[5.452193] (messages) StderrLine: {'line': b'  /home/feige/ROS2_src/build/messages/rosidl_adapter/messages.idls) returned\n'}
+[5.452516] (messages) StderrLine: {'line': b'  error code 1:\n'}
+[5.452848] (messages) StderrLine: {'line': b'\n'}
+[5.453150] (messages) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[5.453452] (messages) StderrLine: {'line': b'\n'}
+[5.453785] (messages) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[5.454095] (messages) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[5.454392] (messages) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[5.454888] (messages) StderrLine: {'line': b'      sys.exit(main())\n'}
+[5.455247] (messages) StderrLine: {'line': b'               ^^^^^^\n'}
+[5.455786] (messages) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[5.456185] (messages) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[5.456644] (messages) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[5.457108] (messages) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[5.457650] (messages) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[5.458161] (messages) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^\n'}
+[5.458640] (messages) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[5.459054] (messages) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[5.459467] (messages) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[5.460181] (messages) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string\n'}
+[5.460898] (messages) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[5.461418] (messages) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[5.462008] (messages) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__\n'}
+[5.462591] (messages) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[5.463171] (messages) StderrLine: {'line': b'                       ^^^^^^^^^\n'}
+[5.463885] (messages) StderrLine: {'line': b'    File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__\n'}
+[5.464708] (messages) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[5.465460] (messages) StderrLine: {'line': b'\n'}
+[5.466022] (messages) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'offset_px' is an invalid\n"}
+[5.466450] (messages) StderrLine: {'line': b"  message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[5.466921] (messages) StderrLine: {'line': b'\n'}
+[5.467329] (messages) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.467818] (messages) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[5.468348] (messages) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[5.469057] (messages) StderrLine: {'line': b'\n'}
+[5.469759] (messages) StderrLine: {'line': b'\x1b[0m\n'}
+[5.470224] (messages) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.473980] (messages) CommandEnded: {'returncode': 1}
+[5.538909] (-) TimerEvent: {}
+[5.597921] (messages) JobEnded: {'identifier': 'messages', 'rc': 1}
+[5.610161] (-) EventReactorShutdown: {}

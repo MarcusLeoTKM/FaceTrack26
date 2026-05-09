@@ -1,0 +1,27 @@
+running egg_info
+writing ../build/motor_motion/motor_motion.egg-info/PKG-INFO
+writing dependency_links to ../build/motor_motion/motor_motion.egg-info/dependency_links.txt
+writing entry points to ../build/motor_motion/motor_motion.egg-info/entry_points.txt
+writing requirements to ../build/motor_motion/motor_motion.egg-info/requires.txt
+writing top-level names to ../build/motor_motion/motor_motion.egg-info/top_level.txt
+reading manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'
+running build
+running build_py
+copying motor_motion/usb_camera.py -> /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion
+copying motor_motion/motor_pan.py -> /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion
+running install
+running install_lib
+copying /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion/usb_camera.py -> /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion
+copying /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion/motor_pan.py -> /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion
+byte-compiling /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion/usb_camera.py to usb_camera.cpython-312.pyc
+byte-compiling /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion/motor_pan.py to motor_pan.cpython-312.pyc
+running install_data
+copying package.xml -> /home/feige/ROS2_src/install/motor_motion/share/motor_motion
+running install_egg_info
+removing '/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/motor_motion/motor_motion.egg-info to /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion-0.0.0-py3.12.egg-info
+running install_scripts
+Installing motor_pan script to /home/feige/ROS2_src/install/motor_motion/lib/motor_motion
+writing list of installed files to '/home/feige/ROS2_src/build/motor_motion/install.log'

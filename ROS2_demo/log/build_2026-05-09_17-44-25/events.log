@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.001018] (-) JobUnselected: {'identifier': 'messages'}
+[0.001861] (motor_motion) JobQueued: {'identifier': 'motor_motion', 'dependencies': OrderedDict()}
+[0.002381] (motor_motion) JobStarted: {'identifier': 'motor_motion'}
+[0.099285] (-) TimerEvent: {}
+[0.199961] (-) TimerEvent: {}
+[0.300593] (-) TimerEvent: {}
+[0.401544] (-) TimerEvent: {}
+[0.502183] (-) TimerEvent: {}
+[0.603038] (-) TimerEvent: {}
+[0.703595] (-) TimerEvent: {}
+[0.804197] (-) TimerEvent: {}
+[0.904950] (-) TimerEvent: {}
+[1.005819] (-) TimerEvent: {}
+[1.106587] (-) TimerEvent: {}
+[1.207199] (-) TimerEvent: {}
+[1.307919] (-) TimerEvent: {}
+[1.408583] (-) TimerEvent: {}
+[1.509196] (-) TimerEvent: {}
+[1.609819] (-) TimerEvent: {}
+[1.710373] (-) TimerEvent: {}
+[1.811008] (-) TimerEvent: {}
+[1.911742] (-) TimerEvent: {}
+[2.012435] (-) TimerEvent: {}
+[2.113249] (-) TimerEvent: {}
+[2.214119] (-) TimerEvent: {}
+[2.314852] (-) TimerEvent: {}
+[2.415597] (-) TimerEvent: {}
+[2.516253] (-) TimerEvent: {}
+[2.616958] (-) TimerEvent: {}
+[2.717613] (-) TimerEvent: {}
+[2.818194] (-) TimerEvent: {}
+[2.918931] (-) TimerEvent: {}
+[3.019572] (-) TimerEvent: {}
+[3.120156] (-) TimerEvent: {}
+[3.220816] (-) TimerEvent: {}
+[3.321392] (-) TimerEvent: {}
+[3.422028] (-) TimerEvent: {}
+[3.522590] (-) TimerEvent: {}
+[3.623190] (-) TimerEvent: {}
+[3.723945] (-) TimerEvent: {}
+[3.824695] (-) TimerEvent: {}
+[3.925326] (-) TimerEvent: {}
+[4.026101] (-) TimerEvent: {}
+[4.127051] (-) TimerEvent: {}
+[4.135436] (motor_motion) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/motor_motion', 'build', '--build-base', '/home/feige/ROS2_src/build/motor_motion/build', 'install', '--record', '/home/feige/ROS2_src/build/motor_motion/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/feige/ROS2_src/motor_motion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feige', 'SSH_CLIENT': '10.88.111.7 60677 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/feige', 'OLDPWD': '/home/feige', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/feige/ROS2_src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feige', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/feige/ROS2_src/build/motor_motion', 'SSH_CONNECTION': '10.88.111.7 60677 10.88.111.16 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feige/ROS2_src/build/motor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.227198] (-) TimerEvent: {}
+[4.327870] (-) TimerEvent: {}
+[4.428545] (-) TimerEvent: {}
+[4.529139] (-) TimerEvent: {}
+[4.629842] (-) TimerEvent: {}
+[4.730430] (-) TimerEvent: {}
+[4.831037] (-) TimerEvent: {}
+[4.931628] (-) TimerEvent: {}
+[5.032215] (-) TimerEvent: {}
+[5.130789] (motor_motion) StdoutLine: {'line': b'running egg_info\n'}
+[5.132341] (-) TimerEvent: {}
+[5.195775] (motor_motion) StdoutLine: {'line': b'writing ../build/motor_motion/motor_motion.egg-info/PKG-INFO\n'}
+[5.199661] (motor_motion) StdoutLine: {'line': b'writing dependency_links to ../build/motor_motion/motor_motion.egg-info/dependency_links.txt\n'}
+[5.200855] (motor_motion) StdoutLine: {'line': b'writing entry points to ../build/motor_motion/motor_motion.egg-info/entry_points.txt\n'}
+[5.201888] (motor_motion) StdoutLine: {'line': b'writing requirements to ../build/motor_motion/motor_motion.egg-info/requires.txt\n'}
+[5.202714] (motor_motion) StdoutLine: {'line': b'writing top-level names to ../build/motor_motion/motor_motion.egg-info/top_level.txt\n'}
+[5.232538] (-) TimerEvent: {}
+[5.333406] (-) TimerEvent: {}
+[5.336058] (motor_motion) StdoutLine: {'line': b"reading manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'\n"}
+[5.340282] (motor_motion) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.342520] (motor_motion) StdoutLine: {'line': b"writing manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'\n"}
+[5.343238] (motor_motion) StdoutLine: {'line': b'running build\n'}
+[5.343879] (motor_motion) StdoutLine: {'line': b'running build_py\n'}
+[5.346191] (motor_motion) StdoutLine: {'line': b'copying motor_motion/usb_camera.py -> /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion\n'}
+[5.347852] (motor_motion) StdoutLine: {'line': b'copying motor_motion/motor_pan.py -> /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion\n'}
+[5.349397] (motor_motion) StdoutLine: {'line': b'running install\n'}
+[5.376136] (motor_motion) StdoutLine: {'line': b'running install_lib\n'}
+[5.433622] (-) TimerEvent: {}
+[5.441195] (motor_motion) StdoutLine: {'line': b'copying /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion/usb_camera.py -> /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion\n'}
+[5.445072] (motor_motion) StdoutLine: {'line': b'copying /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion/motor_pan.py -> /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion\n'}
+[5.448627] (motor_motion) StdoutLine: {'line': b'byte-compiling /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion/usb_camera.py to usb_camera.cpython-312.pyc\n'}
+[5.452013] (motor_motion) StdoutLine: {'line': b'byte-compiling /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion/motor_pan.py to motor_pan.cpython-312.pyc\n'}
+[5.454677] (motor_motion) StdoutLine: {'line': b'running install_data\n'}
+[5.455754] (motor_motion) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.526047] (motor_motion) StdoutLine: {'line': b"removing '/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.527911] (motor_motion) StdoutLine: {'line': b'Copying ../build/motor_motion/motor_motion.egg-info to /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion-0.0.0-py3.12.egg-info\n'}
+[5.533768] (-) TimerEvent: {}
+[5.537245] (motor_motion) StdoutLine: {'line': b'running install_scripts\n'}
+[5.633934] (-) TimerEvent: {}
+[5.734558] (-) TimerEvent: {}
+[5.835118] (-) TimerEvent: {}
+[5.935727] (-) TimerEvent: {}
+[6.036325] (-) TimerEvent: {}
+[6.038822] (motor_motion) StdoutLine: {'line': b'Installing motor_pan script to /home/feige/ROS2_src/install/motor_motion/lib/motor_motion\n'}
+[6.039803] (motor_motion) StdoutLine: {'line': b'Installing usb_camera script to /home/feige/ROS2_src/install/motor_motion/lib/motor_motion\n'}
+[6.043544] (motor_motion) StdoutLine: {'line': b"writing list of installed files to '/home/feige/ROS2_src/build/motor_motion/install.log'\n"}
+[6.136715] (-) TimerEvent: {}
+[6.186624] (motor_motion) CommandEnded: {'returncode': 0}
+[6.233293] (motor_motion) JobEnded: {'identifier': 'motor_motion', 'rc': 0}
+[6.236549] (-) EventReactorShutdown: {}

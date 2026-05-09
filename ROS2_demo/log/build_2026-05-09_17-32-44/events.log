@@ -1,0 +1,513 @@
+[0.000000] (-) TimerEvent: {}
+[0.000935] (-) JobUnselected: {'identifier': 'motor_motion'}
+[0.001812] (messages) JobQueued: {'identifier': 'messages', 'dependencies': OrderedDict()}
+[0.002330] (messages) JobStarted: {'identifier': 'messages'}
+[0.041568] (messages) JobProgress: {'identifier': 'messages', 'progress': 'cmake'}
+[0.045577] (messages) Command: {'cmd': ['/usr/bin/cmake', '/home/feige/ROS2_src/messages', '-DCMAKE_INSTALL_PREFIX=/home/feige/ROS2_src/install/messages'], 'cwd': '/home/feige/ROS2_src/build/messages', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feige', 'SSH_CLIENT': '10.88.111.7 62021 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/feige', 'OLDPWD': '/home/feige', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/feige/ROS2_src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feige', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '28', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/feige/ROS2_src/build/messages', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.88.111.7 62021 10.88.111.16 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy'}), 'shell': False}
+[0.099315] (-) TimerEvent: {}
+[0.113087] (messages) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199458] (-) TimerEvent: {}
+[0.300144] (-) TimerEvent: {}
+[0.401010] (-) TimerEvent: {}
+[0.501760] (-) TimerEvent: {}
+[0.602388] (-) TimerEvent: {}
+[0.703023] (-) TimerEvent: {}
+[0.803709] (-) TimerEvent: {}
+[0.904368] (-) TimerEvent: {}
+[1.004976] (-) TimerEvent: {}
+[1.104497] (messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.105184] (-) TimerEvent: {}
+[1.114975] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.205386] (-) TimerEvent: {}
+[1.286368] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.305578] (-) TimerEvent: {}
+[1.406212] (-) TimerEvent: {}
+[1.421595] (messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.506392] (-) TimerEvent: {}
+[1.607025] (-) TimerEvent: {}
+[1.707769] (-) TimerEvent: {}
+[1.808461] (-) TimerEvent: {}
+[1.909084] (-) TimerEvent: {}
+[2.009808] (-) TimerEvent: {}
+[2.110457] (-) TimerEvent: {}
+[2.211091] (-) TimerEvent: {}
+[2.312075] (-) TimerEvent: {}
+[2.413127] (-) TimerEvent: {}
+[2.513788] (-) TimerEvent: {}
+[2.614380] (-) TimerEvent: {}
+[2.715160] (-) TimerEvent: {}
+[2.816104] (-) TimerEvent: {}
+[2.916732] (-) TimerEvent: {}
+[3.017354] (-) TimerEvent: {}
+[3.118039] (-) TimerEvent: {}
+[3.218668] (-) TimerEvent: {}
+[3.319307] (-) TimerEvent: {}
+[3.419984] (-) TimerEvent: {}
+[3.520844] (-) TimerEvent: {}
+[3.621555] (-) TimerEvent: {}
+[3.722342] (-) TimerEvent: {}
+[3.823128] (-) TimerEvent: {}
+[3.923900] (-) TimerEvent: {}
+[4.024722] (-) TimerEvent: {}
+[4.073667] (messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[4.124904] (-) TimerEvent: {}
+[4.225600] (-) TimerEvent: {}
+[4.326351] (-) TimerEvent: {}
+[4.426944] (-) TimerEvent: {}
+[4.527614] (-) TimerEvent: {}
+[4.628281] (-) TimerEvent: {}
+[4.728877] (-) TimerEvent: {}
+[4.829657] (-) TimerEvent: {}
+[4.930413] (-) TimerEvent: {}
+[5.031204] (-) TimerEvent: {}
+[5.132038] (-) TimerEvent: {}
+[5.232908] (-) TimerEvent: {}
+[5.333815] (-) TimerEvent: {}
+[5.434719] (-) TimerEvent: {}
+[5.535512] (-) TimerEvent: {}
+[5.636153] (-) TimerEvent: {}
+[5.736814] (-) TimerEvent: {}
+[5.837472] (-) TimerEvent: {}
+[5.938105] (-) TimerEvent: {}
+[6.038769] (-) TimerEvent: {}
+[6.086911] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.139026] (-) TimerEvent: {}
+[6.239845] (-) TimerEvent: {}
+[6.340593] (-) TimerEvent: {}
+[6.441349] (-) TimerEvent: {}
+[6.542000] (-) TimerEvent: {}
+[6.642742] (-) TimerEvent: {}
+[6.743493] (-) TimerEvent: {}
+[6.844194] (-) TimerEvent: {}
+[6.945070] (-) TimerEvent: {}
+[7.046148] (-) TimerEvent: {}
+[7.146801] (-) TimerEvent: {}
+[7.247711] (-) TimerEvent: {}
+[7.348764] (-) TimerEvent: {}
+[7.449350] (-) TimerEvent: {}
+[7.549902] (-) TimerEvent: {}
+[7.650531] (-) TimerEvent: {}
+[7.751113] (-) TimerEvent: {}
+[7.851808] (-) TimerEvent: {}
+[7.952517] (-) TimerEvent: {}
+[8.053173] (-) TimerEvent: {}
+[8.154021] (-) TimerEvent: {}
+[8.255121] (-) TimerEvent: {}
+[8.355929] (-) TimerEvent: {}
+[8.456631] (-) TimerEvent: {}
+[8.557356] (-) TimerEvent: {}
+[8.658112] (-) TimerEvent: {}
+[8.676314] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.704534] (messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[8.758333] (-) TimerEvent: {}
+[8.858933] (-) TimerEvent: {}
+[8.959534] (-) TimerEvent: {}
+[9.060144] (-) TimerEvent: {}
+[9.160785] (-) TimerEvent: {}
+[9.261544] (-) TimerEvent: {}
+[9.333206] (messages) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[9.361762] (-) TimerEvent: {}
+[9.462472] (-) TimerEvent: {}
+[9.563352] (-) TimerEvent: {}
+[9.664134] (-) TimerEvent: {}
+[9.764949] (-) TimerEvent: {}
+[9.865783] (-) TimerEvent: {}
+[9.966581] (-) TimerEvent: {}
+[10.067393] (-) TimerEvent: {}
+[10.168142] (-) TimerEvent: {}
+[10.268966] (-) TimerEvent: {}
+[10.369842] (-) TimerEvent: {}
+[10.470847] (-) TimerEvent: {}
+[10.571531] (-) TimerEvent: {}
+[10.672318] (-) TimerEvent: {}
+[10.773017] (-) TimerEvent: {}
+[10.874012] (-) TimerEvent: {}
+[10.974911] (-) TimerEvent: {}
+[11.075555] (-) TimerEvent: {}
+[11.176301] (-) TimerEvent: {}
+[11.277117] (-) TimerEvent: {}
+[11.378040] (-) TimerEvent: {}
+[11.478897] (-) TimerEvent: {}
+[11.579552] (-) TimerEvent: {}
+[11.680147] (-) TimerEvent: {}
+[11.780863] (-) TimerEvent: {}
+[11.853545] (messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[11.881117] (-) TimerEvent: {}
+[11.981899] (-) TimerEvent: {}
+[12.082517] (-) TimerEvent: {}
+[12.135424] (messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[12.159768] (messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[12.182702] (-) TimerEvent: {}
+[12.283386] (-) TimerEvent: {}
+[12.380768] (messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.383554] (-) TimerEvent: {}
+[12.394856] (messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.417583] (messages) StdoutLine: {'line': b'-- Configuring done (12.3s)\n'}
+[12.483745] (-) TimerEvent: {}
+[12.584351] (-) TimerEvent: {}
+[12.614984] (messages) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[12.662874] (messages) StdoutLine: {'line': b'-- Build files have been written to: /home/feige/ROS2_src/build/messages\n'}
+[12.681737] (messages) CommandEnded: {'returncode': 0}
+[12.683416] (messages) JobProgress: {'identifier': 'messages', 'progress': 'build'}
+[12.687561] (messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/feige/ROS2_src/build/messages', '--', '-j4', '-l4'], 'cwd': '/home/feige/ROS2_src/build/messages', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feige', 'SSH_CLIENT': '10.88.111.7 62021 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/feige', 'OLDPWD': '/home/feige', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/feige/ROS2_src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feige', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '28', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/feige/ROS2_src/build/messages', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.88.111.7 62021 10.88.111.16 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy'}), 'shell': False}
+[12.688937] (-) TimerEvent: {}
+[12.789594] (-) TimerEvent: {}
+[12.891711] (-) TimerEvent: {}
+[12.954785] (messages) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[12.972651] (messages) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[12.991689] (-) TimerEvent: {}
+[13.010511] (messages) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_messages\n'}
+[13.091914] (-) TimerEvent: {}
+[13.193756] (-) TimerEvent: {}
+[13.294923] (-) TimerEvent: {}
+[13.395731] (-) TimerEvent: {}
+[13.496911] (-) TimerEvent: {}
+[13.598486] (-) TimerEvent: {}
+[13.699687] (-) TimerEvent: {}
+[13.801156] (-) TimerEvent: {}
+[13.902347] (-) TimerEvent: {}
+[14.004929] (-) TimerEvent: {}
+[14.028083] (messages) StdoutLine: {'line': b'[  5%] Built target messages__rosidl_generator_type_description\n'}
+[14.091977] (messages) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[14.105072] (-) TimerEvent: {}
+[14.152600] (messages) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.205355] (-) TimerEvent: {}
+[14.299786] (messages) StdoutLine: {'line': b'[ 11%] Built target messages__rs\n'}
+[14.305579] (-) TimerEvent: {}
+[14.341785] (messages) StdoutLine: {'line': b'running egg_info\n'}
+[14.346485] (messages) StdoutLine: {'line': b'creating messages.egg-info\n'}
+[14.405895] (-) TimerEvent: {}
+[14.469730] (messages) StdoutLine: {'line': b'writing messages.egg-info/PKG-INFO\n'}
+[14.472336] (messages) StdoutLine: {'line': b'writing dependency_links to messages.egg-info/dependency_links.txt\n'}
+[14.478615] (messages) StdoutLine: {'line': b'writing top-level names to messages.egg-info/top_level.txt\n'}
+[14.481527] (messages) StdoutLine: {'line': b"writing manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[14.506066] (-) TimerEvent: {}
+[14.607674] (-) TimerEvent: {}
+[14.708786] (-) TimerEvent: {}
+[14.760356] (messages) StdoutLine: {'line': b"reading manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[14.762563] (messages) StdoutLine: {'line': b"writing manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[14.809083] (-) TimerEvent: {}
+[14.911126] (-) TimerEvent: {}
+[14.930476] (messages) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_messages_egg\n'}
+[15.011389] (-) TimerEvent: {}
+[15.112653] (-) TimerEvent: {}
+[15.214110] (-) TimerEvent: {}
+[15.317491] (-) TimerEvent: {}
+[15.418276] (-) TimerEvent: {}
+[15.419283] (messages) StdoutLine: {'line': b'[ 11%] Built target messages__cpp\n'}
+[15.518492] (-) TimerEvent: {}
+[15.539409] (messages) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/offset_px__functions.c.o\x1b[0m\n'}
+[15.545204] (messages) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/offset_px__description.c.o\x1b[0m\n'}
+[15.547445] (messages) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/offset_px__type_support.c.o\x1b[0m\n'}
+[15.618732] (-) TimerEvent: {}
+[15.719756] (-) TimerEvent: {}
+[15.820791] (-) TimerEvent: {}
+[15.921569] (-) TimerEvent: {}
+[16.022335] (-) TimerEvent: {}
+[16.123163] (-) TimerEvent: {}
+[16.224098] (-) TimerEvent: {}
+[16.313954] (messages) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_generator_c.so\x1b[0m\n'}
+[16.324299] (-) TimerEvent: {}
+[16.424987] (-) TimerEvent: {}
+[16.516894] (messages) StdoutLine: {'line': b'[ 22%] Built target messages__rosidl_generator_c\n'}
+[16.525191] (-) TimerEvent: {}
+[16.577673] (messages) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.579290] (messages) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.583031] (messages) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[16.586128] (messages) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.626466] (-) TimerEvent: {}
+[16.727583] (-) TimerEvent: {}
+[16.832373] (-) TimerEvent: {}
+[16.937410] (-) TimerEvent: {}
+[17.040431] (-) TimerEvent: {}
+[17.141965] (-) TimerEvent: {}
+[17.244164] (-) TimerEvent: {}
+[17.347092] (-) TimerEvent: {}
+[17.450816] (-) TimerEvent: {}
+[17.553469] (-) TimerEvent: {}
+[17.654589] (-) TimerEvent: {}
+[17.759119] (-) TimerEvent: {}
+[17.861275] (-) TimerEvent: {}
+[17.939690] (messages) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/offset_px__type_support.cpp.o\x1b[0m\n'}
+[17.962012] (-) TimerEvent: {}
+[18.016384] (messages) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/offset_px__type_support.c.o\x1b[0m\n'}
+[18.025913] (messages) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/offset_px__type_support.cpp.o\x1b[0m\n'}
+[18.062283] (-) TimerEvent: {}
+[18.094293] (messages) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/offset_px__type_support_c.cpp.o\x1b[0m\n'}
+[18.162581] (-) TimerEvent: {}
+[18.239530] (messages) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.264478] (-) TimerEvent: {}
+[18.365318] (-) TimerEvent: {}
+[18.425492] (messages) StdoutLine: {'line': b'[ 48%] Built target messages__rosidl_typesupport_introspection_c\n'}
+[18.466365] (-) TimerEvent: {}
+[18.488391] (messages) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.566568] (-) TimerEvent: {}
+[18.670300] (-) TimerEvent: {}
+[18.771917] (-) TimerEvent: {}
+[18.876395] (-) TimerEvent: {}
+[18.978079] (-) TimerEvent: {}
+[19.082288] (-) TimerEvent: {}
+[19.183850] (-) TimerEvent: {}
+[19.289459] (-) TimerEvent: {}
+[19.390977] (-) TimerEvent: {}
+[19.492614] (-) TimerEvent: {}
+[19.595449] (-) TimerEvent: {}
+[19.696943] (-) TimerEvent: {}
+[19.800040] (-) TimerEvent: {}
+[19.903652] (-) TimerEvent: {}
+[20.006281] (-) TimerEvent: {}
+[20.030505] (messages) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/offset_px__type_support.cpp.o\x1b[0m\n'}
+[20.109461] (-) TimerEvent: {}
+[20.173221] (messages) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[20.211522] (-) TimerEvent: {}
+[20.262628] (messages) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[20.311836] (-) TimerEvent: {}
+[20.331215] (messages) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.414466] (-) TimerEvent: {}
+[20.457348] (messages) StdoutLine: {'line': b'[ 62%] Built target messages__rosidl_typesupport_cpp\n'}
+[20.515722] (-) TimerEvent: {}
+[20.522753] (messages) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.525146] (messages) StdoutLine: {'line': b'[ 62%] Built target messages__rosidl_typesupport_introspection_cpp\n'}
+[20.589219] (messages) StdoutLine: {'line': b'[ 65%] Built target messages__rosidl_typesupport_c\n'}
+[20.615966] (-) TimerEvent: {}
+[20.716949] (-) TimerEvent: {}
+[20.817811] (-) TimerEvent: {}
+[20.918525] (-) TimerEvent: {}
+[21.019377] (-) TimerEvent: {}
+[21.120090] (-) TimerEvent: {}
+[21.220868] (-) TimerEvent: {}
+[21.231300] (messages) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[21.321091] (-) TimerEvent: {}
+[21.421930] (-) TimerEvent: {}
+[21.482114] (messages) StdoutLine: {'line': b'[ 68%] Built target messages__rosidl_typesupport_fastrtps_c\n'}
+[21.522217] (-) TimerEvent: {}
+[21.623219] (-) TimerEvent: {}
+[21.723981] (-) TimerEvent: {}
+[21.724591] (messages) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/offset_px__type_support.cpp.o\x1b[0m\n'}
+[21.824172] (-) TimerEvent: {}
+[21.924867] (-) TimerEvent: {}
+[22.025609] (-) TimerEvent: {}
+[22.126405] (-) TimerEvent: {}
+[22.227069] (-) TimerEvent: {}
+[22.327802] (-) TimerEvent: {}
+[22.428548] (-) TimerEvent: {}
+[22.529328] (-) TimerEvent: {}
+[22.630093] (-) TimerEvent: {}
+[22.730836] (-) TimerEvent: {}
+[22.831669] (-) TimerEvent: {}
+[22.932383] (-) TimerEvent: {}
+[23.033107] (-) TimerEvent: {}
+[23.133850] (-) TimerEvent: {}
+[23.234619] (-) TimerEvent: {}
+[23.335380] (-) TimerEvent: {}
+[23.436089] (-) TimerEvent: {}
+[23.536886] (-) TimerEvent: {}
+[23.637642] (-) TimerEvent: {}
+[23.738367] (-) TimerEvent: {}
+[23.747878] (messages) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[23.838634] (-) TimerEvent: {}
+[23.939433] (-) TimerEvent: {}
+[23.978986] (messages) StdoutLine: {'line': b'[ 74%] Built target messages__rosidl_typesupport_fastrtps_cpp\n'}
+[24.039629] (-) TimerEvent: {}
+[24.078960] (messages) StdoutLine: {'line': b'[ 74%] Built target messages\n'}
+[24.139821] (-) TimerEvent: {}
+[24.178772] (messages) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.239987] (-) TimerEvent: {}
+[24.340650] (-) TimerEvent: {}
+[24.441487] (-) TimerEvent: {}
+[24.542087] (-) TimerEvent: {}
+[24.642773] (-) TimerEvent: {}
+[24.743461] (-) TimerEvent: {}
+[24.844062] (-) TimerEvent: {}
+[24.944718] (-) TimerEvent: {}
+[25.045383] (-) TimerEvent: {}
+[25.146139] (-) TimerEvent: {}
+[25.247320] (-) TimerEvent: {}
+[25.323472] (messages) StdoutLine: {'line': b'[ 77%] Built target messages__py\n'}
+[25.347557] (-) TimerEvent: {}
+[25.427179] (messages) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_offset_px_s.c.o\x1b[0m\n'}
+[25.447744] (-) TimerEvent: {}
+[25.548570] (-) TimerEvent: {}
+[25.649312] (-) TimerEvent: {}
+[25.750044] (-) TimerEvent: {}
+[25.850783] (-) TimerEvent: {}
+[25.951533] (-) TimerEvent: {}
+[26.052297] (-) TimerEvent: {}
+[26.149592] (messages) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_generator_py.so\x1b[0m\n'}
+[26.152462] (-) TimerEvent: {}
+[26.253226] (-) TimerEvent: {}
+[26.354277] (-) TimerEvent: {}
+[26.361049] (messages) StdoutLine: {'line': b'[ 82%] Built target messages__rosidl_generator_py\n'}
+[26.454549] (-) TimerEvent: {}
+[26.467482] (messages) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.469979] (messages) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.474037] (messages) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.556436] (-) TimerEvent: {}
+[26.657151] (-) TimerEvent: {}
+[26.757964] (-) TimerEvent: {}
+[26.859334] (-) TimerEvent: {}
+[26.963133] (-) TimerEvent: {}
+[26.991079] (messages) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[27.006589] (messages) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[27.036775] (messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[27.065618] (-) TimerEvent: {}
+[27.162753] (messages) StdoutLine: {'line': b'[100%] Built target messages_s__rosidl_typesupport_c\n'}
+[27.165849] (-) TimerEvent: {}
+[27.182036] (messages) StdoutLine: {'line': b'[100%] Built target messages_s__rosidl_typesupport_introspection_c\n'}
+[27.204550] (messages) StdoutLine: {'line': b'[100%] Built target messages_s__rosidl_typesupport_fastrtps_c\n'}
+[27.261043] (messages) CommandEnded: {'returncode': 0}
+[27.263507] (messages) JobProgress: {'identifier': 'messages', 'progress': 'install'}
+[27.265959] (-) TimerEvent: {}
+[27.307812] (messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/feige/ROS2_src/build/messages'], 'cwd': '/home/feige/ROS2_src/build/messages', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feige', 'SSH_CLIENT': '10.88.111.7 62021 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/feige', 'OLDPWD': '/home/feige', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/feige/ROS2_src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feige', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '28', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/feige/ROS2_src/build/messages', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.88.111.7 62021 10.88.111.16 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy'}), 'shell': False}
+[27.345898] (messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.346937] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/rosidl_interfaces/messages\n'}
+[27.348574] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/msg/OffsetPX.json\n'}
+[27.349597] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages\n'}
+[27.350392] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg\n'}
+[27.350977] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/offset_px.h\n'}
+[27.351904] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail\n'}
+[27.352630] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__description.c\n'}
+[27.353673] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__struct.h\n'}
+[27.354651] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__functions.c\n'}
+[27.355731] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__functions.h\n'}
+[27.356778] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.h\n'}
+[27.357786] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.c\n'}
+[27.358802] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.360336] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/library_path.sh\n'}
+[27.364155] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/library_path.dsv\n'}
+[27.365736] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_generator_c.so\n'}
+[27.366361] (-) TimerEvent: {}
+[27.369438] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_generator_c.so" to ""\n'}
+[27.370337] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages\n'}
+[27.371046] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg\n'}
+[27.371643] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail\n'}
+[27.372078] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__rosidl_typesupport_fastrtps_c.h\n'}
+[27.372674] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.376615] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so\n'}
+[27.379727] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.380447] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages\n'}
+[27.380847] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg\n'}
+[27.381415] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.382368] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail\n'}
+[27.382884] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__rosidl_typesupport_introspection_c.h\n'}
+[27.383997] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.c\n'}
+[27.385409] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so\n'}
+[27.388865] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.389679] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_c.so\n'}
+[27.392780] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_c.so" to ""\n'}
+[27.393540] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages\n'}
+[27.394009] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg\n'}
+[27.394633] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/offset_px.hpp\n'}
+[27.395201] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[27.398758] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail\n'}
+[27.399416] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.hpp\n'}
+[27.400253] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__traits.hpp\n'}
+[27.401277] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__builder.hpp\n'}
+[27.402264] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__struct.hpp\n'}
+[27.403378] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages\n'}
+[27.403984] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg\n'}
+[27.404475] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.405208] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail\n'}
+[27.405864] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/dds_fastrtps\n'}
+[27.406395] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.407833] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.411304] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[27.412068] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages\n'}
+[27.412653] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg\n'}
+[27.413185] (messages) StdoutLine: {'line': b'-- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail\n'}
+[27.413656] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.cpp\n'}
+[27.414156] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.415711] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so\n'}
+[27.418839] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[27.419476] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_cpp.so\n'}
+[27.422245] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_cpp.so" to ""\n'}
+[27.422910] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/pythonpath.sh\n'}
+[27.423776] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/pythonpath.dsv\n'}
+[27.424866] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info\n'}
+[27.425788] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[27.426861] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[27.430330] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[27.431342] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[27.432528] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages\n'}
+[27.433288] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[27.434358] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg\n'}
+[27.435014] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/__init__.py\n'}
+[27.436008] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/_offset_px_s.c\n'}
+[27.437177] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/_offset_px.py\n'}
+[27.438353] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_c.c\n'}
+[27.439573] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/__init__.py\n'}
+[27.440607] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so\n'}
+[27.442536] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so\n'}
+[27.444486] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so\n'}
+[27.446466] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[27.466574] (-) TimerEvent: {}
+[27.567355] (-) TimerEvent: {}
+[27.641397] (messages) StdoutLine: {'line': b"Listing '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages'...\n"}
+[27.643006] (messages) StdoutLine: {'line': b"Compiling '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/__init__.py'...\n"}
+[27.644298] (messages) StdoutLine: {'line': b"Listing '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg'...\n"}
+[27.645814] (messages) StdoutLine: {'line': b"Compiling '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/__init__.py'...\n"}
+[27.646972] (messages) StdoutLine: {'line': b"Compiling '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/_offset_px.py'...\n"}
+[27.667565] (-) TimerEvent: {}
+[27.674243] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so\n'}
+[27.676980] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.678713] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so\n'}
+[27.682008] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.683699] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so\n'}
+[27.687034] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so" to ""\n'}
+[27.687743] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_generator_py.so\n'}
+[27.690965] (messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_generator_py.so" to ""\n'}
+[27.691760] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/rust_packages/messages\n'}
+[27.692799] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust\n'}
+[27.693935] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src\n'}
+[27.694775] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src/msg\n'}
+[27.696404] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src/msg/rmw.rs\n'}
+[27.696817] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src/msg.rs\n'}
+[27.697347] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src/lib.rs\n'}
+[27.697875] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/build.rs\n'}
+[27.698587] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/Cargo.toml\n'}
+[27.699682] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/msg/OffsetPX.idl\n'}
+[27.700735] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/msg/OffsetPX.msg\n'}
+[27.702158] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/package_run_dependencies/messages\n'}
+[27.703769] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/parent_prefix_path/messages\n'}
+[27.705139] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/ament_prefix_path.sh\n'}
+[27.709156] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/ament_prefix_path.dsv\n'}
+[27.710374] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/path.sh\n'}
+[27.712157] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/path.dsv\n'}
+[27.713314] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/local_setup.bash\n'}
+[27.714451] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/local_setup.sh\n'}
+[27.715613] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/local_setup.zsh\n'}
+[27.716754] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/local_setup.dsv\n'}
+[27.717859] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/package.dsv\n'}
+[27.719500] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/packages/messages\n'}
+[27.721209] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport.cmake\n'}
+[27.722758] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.724399] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[27.726030] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[27.727701] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.729306] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.730762] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport.cmake\n'}
+[27.732050] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.733499] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_cppExport.cmake\n'}
+[27.734901] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[27.736294] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[27.737750] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.739111] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.740555] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport.cmake\n'}
+[27.741864] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.743254] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport.cmake\n'}
+[27.744571] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[27.745829] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/rosidl_cmake-extras.cmake\n'}
+[27.746983] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.748252] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.749535] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.750790] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.752022] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.753330] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.754567] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messagesConfig.cmake\n'}
+[27.755494] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messagesConfig-version.cmake\n'}
+[27.756569] (messages) StdoutLine: {'line': b'-- Installing: /home/feige/ROS2_src/install/messages/share/messages/package.xml\n'}
+[27.765170] (messages) CommandEnded: {'returncode': 0}
+[27.767666] (-) TimerEvent: {}
+[27.868199] (-) TimerEvent: {}
+[27.891274] (messages) JobEnded: {'identifier': 'messages', 'rc': 0}
+[27.893968] (-) EventReactorShutdown: {}

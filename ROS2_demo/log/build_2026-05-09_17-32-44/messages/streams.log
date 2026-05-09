@@ -1,0 +1,228 @@
+[0.052s] Invoking command in '/home/feige/ROS2_src/build/messages': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake /home/feige/ROS2_src/messages -DCMAKE_INSTALL_PREFIX=/home/feige/ROS2_src/install/messages
+[0.111s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.102s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.419s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.071s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.674s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.702s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[9.331s] -- Found PythonExtra: /usr/bin/python3  
+[11.851s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[12.133s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[12.158s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[12.379s] -- Added test 'lint_cmake' to check CMake code style
+[12.393s] -- Added test 'xmllint' to check XML markup files
+[12.415s] -- Configuring done (12.3s)
+[12.613s] -- Generating done (0.2s)
+[12.661s] -- Build files have been written to: /home/feige/ROS2_src/build/messages
+[12.680s] Invoked command in '/home/feige/ROS2_src/build/messages' returned '0': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake /home/feige/ROS2_src/messages -DCMAKE_INSTALL_PREFIX=/home/feige/ROS2_src/install/messages
+[12.686s] Invoking command in '/home/feige/ROS2_src/build/messages': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake --build /home/feige/ROS2_src/build/messages -- -j4 -l4
+[12.953s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[12.971s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[13.008s] [  5%] Built target ament_cmake_python_copy_messages
+[14.030s] [  5%] Built target messages__rosidl_generator_type_description
+[14.095s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.154s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.298s] [ 11%] Built target messages__rs
+[14.340s] running egg_info
+[14.344s] creating messages.egg-info
+[14.468s] writing messages.egg-info/PKG-INFO
+[14.473s] writing dependency_links to messages.egg-info/dependency_links.txt
+[14.478s] writing top-level names to messages.egg-info/top_level.txt
+[14.480s] writing manifest file 'messages.egg-info/SOURCES.txt'
+[14.758s] reading manifest file 'messages.egg-info/SOURCES.txt'
+[14.760s] writing manifest file 'messages.egg-info/SOURCES.txt'
+[14.930s] [ 11%] Built target ament_cmake_python_build_messages_egg
+[15.417s] [ 11%] Built target messages__cpp
+[15.537s] [ 14%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/offset_px__functions.c.o[0m
+[15.544s] [ 20%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/offset_px__description.c.o[0m
+[15.545s] [ 20%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/offset_px__type_support.c.o[0m
+[16.312s] [ 22%] [32m[1mLinking C shared library libmessages__rosidl_generator_c.so[0m
+[16.515s] [ 22%] Built target messages__rosidl_generator_c
+[16.576s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.577s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.581s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.584s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.939s] [ 37%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/offset_px__type_support.cpp.o[0m
+[18.018s] [ 40%] [32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/offset_px__type_support.c.o[0m
+[18.025s] [ 42%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/offset_px__type_support.cpp.o[0m
+[18.096s] [ 45%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/offset_px__type_support_c.cpp.o[0m
+[18.237s] [ 48%] [32m[1mLinking C shared library libmessages__rosidl_typesupport_introspection_c.so[0m
+[18.424s] [ 48%] Built target messages__rosidl_typesupport_introspection_c
+[18.490s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.032s] [ 54%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/offset_px__type_support.cpp.o[0m
+[20.171s] [ 57%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_cpp.so[0m
+[20.261s] [ 60%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_introspection_cpp.so[0m
+[20.329s] [ 62%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_c.so[0m
+[20.455s] [ 62%] Built target messages__rosidl_typesupport_cpp
+[20.522s] [ 65%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.523s] [ 62%] Built target messages__rosidl_typesupport_introspection_cpp
+[20.587s] [ 65%] Built target messages__rosidl_typesupport_c
+[21.229s] [ 68%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_c.so[0m
+[21.480s] [ 68%] Built target messages__rosidl_typesupport_fastrtps_c
+[21.722s] [ 71%] [32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/offset_px__type_support.cpp.o[0m
+[23.746s] [ 74%] [32m[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.977s] [ 74%] Built target messages__rosidl_typesupport_fastrtps_cpp
+[24.077s] [ 74%] Built target messages
+[24.177s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.321s] [ 77%] Built target messages__py
+[25.425s] [ 80%] [32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_offset_px_s.c.o[0m
+[26.147s] [ 82%] [32m[1mLinking C shared library libmessages__rosidl_generator_py.so[0m
+[26.359s] [ 82%] Built target messages__rosidl_generator_py
+[26.465s] [ 85%] [32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.470s] [ 88%] [32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[26.474s] [ 91%] [32mBuilding C object CMakeFiles/messages_s__rosidl_typesupport_c.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[26.990s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_c.so[0m
+[27.005s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_introspection_c.so[0m
+[27.035s] [100%] [32m[1mLinking C shared module rosidl_generator_py/messages/messages_s__rosidl_typesupport_fastrtps_c.so[0m
+[27.161s] [100%] Built target messages_s__rosidl_typesupport_c
+[27.180s] [100%] Built target messages_s__rosidl_typesupport_introspection_c
+[27.202s] [100%] Built target messages_s__rosidl_typesupport_fastrtps_c
+[27.259s] Invoked command in '/home/feige/ROS2_src/build/messages' returned '0': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake --build /home/feige/ROS2_src/build/messages -- -j4 -l4
+[27.306s] Invoking command in '/home/feige/ROS2_src/build/messages': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake --install /home/feige/ROS2_src/build/messages
+[27.344s] -- Install configuration: ""
+[27.345s] -- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/rosidl_interfaces/messages
+[27.346s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/msg/OffsetPX.json
+[27.347s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages
+[27.348s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg
+[27.349s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/offset_px.h
+[27.350s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail
+[27.350s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__description.c
+[27.351s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__struct.h
+[27.352s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__functions.c
+[27.353s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__functions.h
+[27.354s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.h
+[27.355s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.c
+[27.356s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_generator_c__visibility_control.h
+[27.358s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/library_path.sh
+[27.362s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/library_path.dsv
+[27.363s] -- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_generator_c.so
+[27.367s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_generator_c.so" to ""
+[27.368s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages
+[27.369s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg
+[27.369s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail
+[27.370s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__rosidl_typesupport_fastrtps_c.h
+[27.370s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.374s] -- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so
+[27.378s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so" to ""
+[27.378s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages
+[27.378s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg
+[27.379s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.380s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail
+[27.380s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__rosidl_typesupport_introspection_c.h
+[27.382s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.c
+[27.383s] -- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so
+[27.387s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so" to ""
+[27.387s] -- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_c.so
+[27.391s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_c.so" to ""
+[27.391s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages
+[27.392s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg
+[27.392s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/offset_px.hpp
+[27.393s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.396s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail
+[27.397s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.hpp
+[27.398s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__traits.hpp
+[27.399s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__builder.hpp
+[27.400s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__struct.hpp
+[27.401s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages
+[27.402s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg
+[27.402s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.403s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail
+[27.403s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/dds_fastrtps
+[27.404s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__rosidl_typesupport_fastrtps_cpp.hpp
+[27.406s] -- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so
+[27.409s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.410s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages
+[27.410s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg
+[27.411s] -- Up-to-date: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail
+[27.411s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__type_support.cpp
+[27.412s] -- Installing: /home/feige/ROS2_src/install/messages/include/messages/messages/msg/detail/offset_px__rosidl_typesupport_introspection_cpp.hpp
+[27.413s] -- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so
+[27.417s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so" to ""
+[27.417s] -- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_cpp.so
+[27.420s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_typesupport_cpp.so" to ""
+[27.420s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/pythonpath.sh
+[27.421s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/pythonpath.dsv
+[27.423s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info
+[27.423s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/dependency_links.txt
+[27.424s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/SOURCES.txt
+[27.428s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/top_level.txt
+[27.429s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages-0.0.0-py3.12.egg-info/PKG-INFO
+[27.430s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages
+[27.431s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c
+[27.432s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg
+[27.433s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/__init__.py
+[27.434s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/_offset_px_s.c
+[27.435s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/_offset_px.py
+[27.436s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_c.c
+[27.437s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/__init__.py
+[27.438s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so
+[27.440s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so
+[27.442s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so
+[27.444s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.640s] Listing '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages'...
+[27.641s] Compiling '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/__init__.py'...
+[27.643s] Listing '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg'...
+[27.644s] Compiling '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/__init__.py'...
+[27.645s] Compiling '/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/msg/_offset_px.py'...
+[27.672s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so
+[27.675s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.so" to ""
+[27.676s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so
+[27.680s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_introspection_c.so" to ""
+[27.681s] -- Installing: /home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so
+[27.685s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/python3.12/site-packages/messages/messages_s__rosidl_typesupport_c.so" to ""
+[27.685s] -- Installing: /home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_generator_py.so
+[27.689s] -- Set non-toolchain portion of runtime path of "/home/feige/ROS2_src/install/messages/lib/libmessages__rosidl_generator_py.so" to ""
+[27.689s] -- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/rust_packages/messages
+[27.690s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust
+[27.692s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src
+[27.693s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src/msg
+[27.694s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src/msg/rmw.rs
+[27.694s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src/msg.rs
+[27.695s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/src/lib.rs
+[27.695s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/build.rs
+[27.696s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/rust/Cargo.toml
+[27.697s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/msg/OffsetPX.idl
+[27.698s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/msg/OffsetPX.msg
+[27.700s] -- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/package_run_dependencies/messages
+[27.701s] -- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/parent_prefix_path/messages
+[27.703s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/ament_prefix_path.sh
+[27.707s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/ament_prefix_path.dsv
+[27.708s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/path.sh
+[27.710s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/environment/path.dsv
+[27.711s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/local_setup.bash
+[27.712s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/local_setup.sh
+[27.713s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/local_setup.zsh
+[27.714s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/local_setup.dsv
+[27.716s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/package.dsv
+[27.717s] -- Installing: /home/feige/ROS2_src/install/messages/share/ament_index/resource_index/packages/messages
+[27.719s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport.cmake
+[27.720s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport-noconfig.cmake
+[27.722s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[27.724s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.725s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport.cmake
+[27.727s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.728s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport.cmake
+[27.730s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport-noconfig.cmake
+[27.731s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_cppExport.cmake
+[27.733s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.734s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.735s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport.cmake
+[27.737s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.738s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport.cmake
+[27.740s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport-noconfig.cmake
+[27.741s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport.cmake
+[27.742s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport-noconfig.cmake
+[27.743s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/rosidl_cmake-extras.cmake
+[27.745s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.746s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/ament_cmake_export_libraries-extras.cmake
+[27.747s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/ament_cmake_export_targets-extras.cmake
+[27.748s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.750s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.751s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.752s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messagesConfig.cmake
+[27.753s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/cmake/messagesConfig-version.cmake
+[27.754s] -- Installing: /home/feige/ROS2_src/install/messages/share/messages/package.xml
+[27.763s] Invoked command in '/home/feige/ROS2_src/build/messages' returned '0': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake --install /home/feige/ROS2_src/build/messages

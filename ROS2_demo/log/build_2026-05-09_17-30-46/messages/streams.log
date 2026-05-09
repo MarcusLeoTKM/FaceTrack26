@@ -1,0 +1,16 @@
+[0.052s] Invoking command in '/home/feige/ROS2_src/build/messages': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake /home/feige/ROS2_src/messages -DCMAKE_INSTALL_PREFIX=/home/feige/ROS2_src/install/messages
+[0.109s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.105s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.423s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.432s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[1.433s]   rosidl_generate_interfaces() the passed file 'msg/offset_px.msg' doesn't
+[1.433s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.434s]   '/home/feige/ROS2_src/messages'
+[1.434s] Call Stack (most recent call first):
+[1.435s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.436s] 
+[1.437s] [0m
+[1.437s] -- Configuring incomplete, errors occurred!
+[1.448s] Invoked command in '/home/feige/ROS2_src/build/messages' returned '1': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake /home/feige/ROS2_src/messages -DCMAKE_INSTALL_PREFIX=/home/feige/ROS2_src/install/messages

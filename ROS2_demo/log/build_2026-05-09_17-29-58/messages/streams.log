@@ -1,0 +1,57 @@
+[0.086s] Invoking command in '/home/feige/ROS2_src/build/messages': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake /home/feige/ROS2_src/messages -DCMAKE_INSTALL_PREFIX=/home/feige/ROS2_src/install/messages
+[1.056s] -- The CXX compiler identification is GNU 13.3.0
+[1.186s] -- Detecting CXX compiler ABI info
+[1.784s] -- Detecting CXX compiler ABI info - done
+[1.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.824s] -- Detecting CXX compile features
+[1.827s] -- Detecting CXX compile features - done
+[1.883s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.610s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.301s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.784s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.176s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.447s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[5.447s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name messages
+[5.448s]   --arguments-file
+[5.448s]   /home/feige/ROS2_src/build/messages/rosidl_adapter__arguments__messages.json
+[5.449s]   --output-dir /home/feige/ROS2_src/build/messages/rosidl_adapter/messages
+[5.449s]   --output-file
+[5.449s]   /home/feige/ROS2_src/build/messages/rosidl_adapter/messages.idls) returned
+[5.450s]   error code 1:
+[5.450s] 
+[5.450s]   Traceback (most recent call last):
+[5.451s] 
+[5.451s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[5.451s]     File "<frozen runpy>", line 88, in _run_code
+[5.452s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[5.452s]       sys.exit(main())
+[5.453s]                ^^^^^^
+[5.453s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[5.453s]       abs_idl_file = convert_to_idl(
+[5.454s]                      ^^^^^^^^^^^^^^^
+[5.454s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[5.455s]       return convert_msg_to_idl(
+[5.455s]              ^^^^^^^^^^^^^^^^^^^
+[5.456s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[5.456s]       msg = parse_message_string(package_name, input_file.stem, content)
+[5.457s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[5.458s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string
+[5.458s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[5.459s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[5.459s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__
+[5.460s]       self.base_type = BaseType(
+[5.461s]                        ^^^^^^^^^
+[5.461s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[5.462s]       raise InvalidResourceName(
+[5.463s] 
+[5.463s]   rosidl_adapter.parser.InvalidResourceName: 'offset_px' is an invalid
+[5.464s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[5.464s] 
+[5.465s] Call Stack (most recent call first):
+[5.465s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[5.466s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[5.467s] 
+[5.467s] [0m
+[5.468s] -- Configuring incomplete, errors occurred!
+[5.471s] Invoked command in '/home/feige/ROS2_src/build/messages' returned '1': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake /home/feige/ROS2_src/messages -DCMAKE_INSTALL_PREFIX=/home/feige/ROS2_src/install/messages

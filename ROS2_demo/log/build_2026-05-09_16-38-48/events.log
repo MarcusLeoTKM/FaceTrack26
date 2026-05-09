@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000946] (motor_motion) JobQueued: {'identifier': 'motor_motion', 'dependencies': OrderedDict()}
+[0.001789] (motor_motion) JobStarted: {'identifier': 'motor_motion'}
+[0.099328] (-) TimerEvent: {}
+[0.199986] (-) TimerEvent: {}
+[0.301201] (-) TimerEvent: {}
+[0.401783] (-) TimerEvent: {}
+[0.502397] (-) TimerEvent: {}
+[0.602975] (-) TimerEvent: {}
+[0.703702] (-) TimerEvent: {}
+[0.804412] (-) TimerEvent: {}
+[0.905220] (-) TimerEvent: {}
+[1.005987] (-) TimerEvent: {}
+[1.106741] (-) TimerEvent: {}
+[1.207440] (-) TimerEvent: {}
+[1.308027] (-) TimerEvent: {}
+[1.408666] (-) TimerEvent: {}
+[1.509279] (-) TimerEvent: {}
+[1.609859] (-) TimerEvent: {}
+[1.710501] (-) TimerEvent: {}
+[1.811055] (-) TimerEvent: {}
+[1.911729] (-) TimerEvent: {}
+[2.012373] (-) TimerEvent: {}
+[2.112959] (-) TimerEvent: {}
+[2.213628] (-) TimerEvent: {}
+[2.314274] (-) TimerEvent: {}
+[2.414839] (-) TimerEvent: {}
+[2.515459] (-) TimerEvent: {}
+[2.616036] (-) TimerEvent: {}
+[2.716649] (-) TimerEvent: {}
+[2.817251] (-) TimerEvent: {}
+[2.917881] (-) TimerEvent: {}
+[3.018623] (-) TimerEvent: {}
+[3.119741] (-) TimerEvent: {}
+[3.169682] (motor_motion) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/motor_motion', 'build', '--build-base', '/home/feige/ROS2_src/build/motor_motion/build', 'install', '--record', '/home/feige/ROS2_src/build/motor_motion/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/feige/ROS2_src/motor_motion', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'feige', 'SSH_CLIENT': '10.88.111.7 60677 22', 'XDG_SESSION_TYPE': 'tty', 'ROS_APT_SOURCE_VERSION': '1.2.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/feige', 'OLDPWD': '/home/feige', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/feige/ROS2_src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'feige', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/feige/ROS2_src/build/motor_motion', 'SSH_CONNECTION': '10.88.111.7 60677 10.88.111.16 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/feige/ROS2_src/build/motor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.219919] (-) TimerEvent: {}
+[3.320586] (-) TimerEvent: {}
+[3.421219] (-) TimerEvent: {}
+[3.521793] (-) TimerEvent: {}
+[3.622429] (-) TimerEvent: {}
+[3.723114] (-) TimerEvent: {}
+[3.823757] (-) TimerEvent: {}
+[3.924402] (-) TimerEvent: {}
+[4.024984] (-) TimerEvent: {}
+[4.125613] (-) TimerEvent: {}
+[4.191274] (motor_motion) StdoutLine: {'line': b'running egg_info\n'}
+[4.225759] (-) TimerEvent: {}
+[4.257448] (motor_motion) StdoutLine: {'line': b'writing ../build/motor_motion/motor_motion.egg-info/PKG-INFO\n'}
+[4.258688] (motor_motion) StdoutLine: {'line': b'writing dependency_links to ../build/motor_motion/motor_motion.egg-info/dependency_links.txt\n'}
+[4.261894] (motor_motion) StdoutLine: {'line': b'writing entry points to ../build/motor_motion/motor_motion.egg-info/entry_points.txt\n'}
+[4.262988] (motor_motion) StdoutLine: {'line': b'writing requirements to ../build/motor_motion/motor_motion.egg-info/requires.txt\n'}
+[4.264217] (motor_motion) StdoutLine: {'line': b'writing top-level names to ../build/motor_motion/motor_motion.egg-info/top_level.txt\n'}
+[4.325921] (-) TimerEvent: {}
+[4.399155] (motor_motion) StdoutLine: {'line': b"reading manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'\n"}
+[4.400824] (motor_motion) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.403293] (motor_motion) StdoutLine: {'line': b"writing manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'\n"}
+[4.404208] (motor_motion) StdoutLine: {'line': b'running build\n'}
+[4.404841] (motor_motion) StdoutLine: {'line': b'running build_py\n'}
+[4.405460] (motor_motion) StdoutLine: {'line': b'copying motor_motion/usb_camera.py -> /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion\n'}
+[4.407451] (motor_motion) StdoutLine: {'line': b'running install\n'}
+[4.426121] (-) TimerEvent: {}
+[4.432196] (motor_motion) StdoutLine: {'line': b'running install_lib\n'}
+[4.497604] (motor_motion) StdoutLine: {'line': b'copying /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion/usb_camera.py -> /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion\n'}
+[4.500612] (motor_motion) StdoutLine: {'line': b'byte-compiling /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion/usb_camera.py to usb_camera.cpython-312.pyc\n'}
+[4.503538] (motor_motion) StdoutLine: {'line': b'running install_data\n'}
+[4.504235] (motor_motion) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.526245] (-) TimerEvent: {}
+[4.575469] (motor_motion) StdoutLine: {'line': b"removing '/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.577247] (motor_motion) StdoutLine: {'line': b'Copying ../build/motor_motion/motor_motion.egg-info to /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion-0.0.0-py3.12.egg-info\n'}
+[4.583440] (motor_motion) StdoutLine: {'line': b'running install_scripts\n'}
+[4.626390] (-) TimerEvent: {}
+[4.726964] (-) TimerEvent: {}
+[4.827570] (-) TimerEvent: {}
+[4.928173] (-) TimerEvent: {}
+[5.028740] (-) TimerEvent: {}
+[5.081007] (motor_motion) StdoutLine: {'line': b'Installing motor_pan script to /home/feige/ROS2_src/install/motor_motion/lib/motor_motion\n'}
+[5.082050] (motor_motion) StdoutLine: {'line': b'Installing usb_camera script to /home/feige/ROS2_src/install/motor_motion/lib/motor_motion\n'}
+[5.085518] (motor_motion) StdoutLine: {'line': b"writing list of installed files to '/home/feige/ROS2_src/build/motor_motion/install.log'\n"}
+[5.129014] (-) TimerEvent: {}
+[5.225138] (motor_motion) CommandEnded: {'returncode': 0}
+[5.229266] (-) TimerEvent: {}
+[5.270115] (motor_motion) JobEnded: {'identifier': 'motor_motion', 'rc': 0}
+[5.273208] (-) EventReactorShutdown: {}

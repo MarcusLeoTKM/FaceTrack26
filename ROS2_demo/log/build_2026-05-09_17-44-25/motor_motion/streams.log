@@ -1,0 +1,29 @@
+[4.145s] Invoking command in '/home/feige/ROS2_src/motor_motion': PYTHONPATH=/home/feige/ROS2_src/build/motor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motor_motion build --build-base /home/feige/ROS2_src/build/motor_motion/build install --record /home/feige/ROS2_src/build/motor_motion/install.log --single-version-externally-managed install_data
+[5.129s] running egg_info
+[5.194s] writing ../build/motor_motion/motor_motion.egg-info/PKG-INFO
+[5.198s] writing dependency_links to ../build/motor_motion/motor_motion.egg-info/dependency_links.txt
+[5.199s] writing entry points to ../build/motor_motion/motor_motion.egg-info/entry_points.txt
+[5.200s] writing requirements to ../build/motor_motion/motor_motion.egg-info/requires.txt
+[5.201s] writing top-level names to ../build/motor_motion/motor_motion.egg-info/top_level.txt
+[5.334s] reading manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'
+[5.338s] adding license file 'LICENSE'
+[5.341s] writing manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'
+[5.341s] running build
+[5.342s] running build_py
+[5.344s] copying motor_motion/usb_camera.py -> /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion
+[5.346s] copying motor_motion/motor_pan.py -> /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion
+[5.347s] running install
+[5.374s] running install_lib
+[5.439s] copying /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion/usb_camera.py -> /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion
+[5.443s] copying /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion/motor_pan.py -> /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion
+[5.447s] byte-compiling /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion/usb_camera.py to usb_camera.cpython-312.pyc
+[5.450s] byte-compiling /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion/motor_pan.py to motor_pan.cpython-312.pyc
+[5.453s] running install_data
+[5.454s] running install_egg_info
+[5.524s] removing '/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion-0.0.0-py3.12.egg-info' (and everything under it)
+[5.526s] Copying ../build/motor_motion/motor_motion.egg-info to /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion-0.0.0-py3.12.egg-info
+[5.535s] running install_scripts
+[6.037s] Installing motor_pan script to /home/feige/ROS2_src/install/motor_motion/lib/motor_motion
+[6.038s] Installing usb_camera script to /home/feige/ROS2_src/install/motor_motion/lib/motor_motion
+[6.042s] writing list of installed files to '/home/feige/ROS2_src/build/motor_motion/install.log'
+[6.185s] Invoked command in '/home/feige/ROS2_src/motor_motion' returned '0': PYTHONPATH=/home/feige/ROS2_src/build/motor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motor_motion build --build-base /home/feige/ROS2_src/build/motor_motion/build install --record /home/feige/ROS2_src/build/motor_motion/install.log --single-version-externally-managed install_data

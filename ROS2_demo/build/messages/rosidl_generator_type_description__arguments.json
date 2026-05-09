@@ -1,0 +1,7 @@
+{
+  "package_name": "messages",
+  "output_dir": "/home/feige/ROS2_src/build/messages/rosidl_generator_type_description/messages",
+  "idl_tuples": [
+    "/home/feige/ROS2_src/build/messages/rosidl_adapter/messages:msg/OffsetPX.idl"
+  ]
+}

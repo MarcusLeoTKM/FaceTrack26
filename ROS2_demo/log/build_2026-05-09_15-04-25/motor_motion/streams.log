@@ -1,0 +1,38 @@
+[4.103s] Invoking command in '/home/feige/ROS2_src/motor_motion': PYTHONPATH=/home/feige/ROS2_src/build/motor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motor_motion build --build-base /home/feige/ROS2_src/build/motor_motion/build install --record /home/feige/ROS2_src/build/motor_motion/install.log --single-version-externally-managed install_data
+[5.107s] running egg_info
+[5.108s] creating ../build/motor_motion/motor_motion.egg-info
+[5.169s] writing ../build/motor_motion/motor_motion.egg-info/PKG-INFO
+[5.170s] writing dependency_links to ../build/motor_motion/motor_motion.egg-info/dependency_links.txt
+[5.171s] writing entry points to ../build/motor_motion/motor_motion.egg-info/entry_points.txt
+[5.172s] writing requirements to ../build/motor_motion/motor_motion.egg-info/requires.txt
+[5.172s] writing top-level names to ../build/motor_motion/motor_motion.egg-info/top_level.txt
+[5.173s] writing manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'
+[5.303s] reading manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'
+[5.304s] adding license file 'LICENSE'
+[5.306s] writing manifest file '../build/motor_motion/motor_motion.egg-info/SOURCES.txt'
+[5.307s] running build
+[5.308s] running build_py
+[5.308s] creating /home/feige/ROS2_src/build/motor_motion/build
+[5.309s] creating /home/feige/ROS2_src/build/motor_motion/build/lib
+[5.309s] creating /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion
+[5.310s] copying motor_motion/__init__.py -> /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion
+[5.311s] copying motor_motion/motor_pan.py -> /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion
+[5.312s] running install
+[5.337s] running install_lib
+[5.401s] creating /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion
+[5.401s] copying /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion/__init__.py -> /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion
+[5.402s] copying /home/feige/ROS2_src/build/motor_motion/build/lib/motor_motion/motor_pan.py -> /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion
+[5.404s] byte-compiling /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion/__init__.py to __init__.cpython-312.pyc
+[5.406s] byte-compiling /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion/motor_pan.py to motor_pan.cpython-312.pyc
+[5.407s] running install_data
+[5.408s] creating /home/feige/ROS2_src/install/motor_motion/share/ament_index
+[5.408s] creating /home/feige/ROS2_src/install/motor_motion/share/ament_index/resource_index
+[5.409s] creating /home/feige/ROS2_src/install/motor_motion/share/ament_index/resource_index/packages
+[5.409s] copying resource/motor_motion -> /home/feige/ROS2_src/install/motor_motion/share/ament_index/resource_index/packages
+[5.410s] copying package.xml -> /home/feige/ROS2_src/install/motor_motion/share/motor_motion
+[5.410s] running install_egg_info
+[5.478s] Copying ../build/motor_motion/motor_motion.egg-info to /home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages/motor_motion-0.0.0-py3.12.egg-info
+[5.484s] running install_scripts
+[5.971s] Installing motor_pan script to /home/feige/ROS2_src/install/motor_motion/lib/motor_motion
+[5.973s] writing list of installed files to '/home/feige/ROS2_src/build/motor_motion/install.log'
+[6.114s] Invoked command in '/home/feige/ROS2_src/motor_motion' returned '0': PYTHONPATH=/home/feige/ROS2_src/build/motor_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/feige/ROS2_src/install/motor_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motor_motion build --build-base /home/feige/ROS2_src/build/motor_motion/build install --record /home/feige/ROS2_src/build/motor_motion/install.log --single-version-externally-managed install_data

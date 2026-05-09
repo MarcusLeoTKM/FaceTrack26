@@ -1,0 +1,4 @@
+Invoking command in '/home/feige/ROS2_src/build/messages': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake --build /home/feige/ROS2_src/build/messages -- -j4 -l4
+Invoked command in '/home/feige/ROS2_src/build/messages' returned '0': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake --build /home/feige/ROS2_src/build/messages -- -j4 -l4
+Invoking command in '/home/feige/ROS2_src/build/messages': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake --install /home/feige/ROS2_src/build/messages
+Invoked command in '/home/feige/ROS2_src/build/messages' returned '0': CMAKE_PREFIX_PATH=/home/feige/ROS2_src/install/motor_motion:/opt/ros/jazzy /usr/bin/cmake --install /home/feige/ROS2_src/build/messages
